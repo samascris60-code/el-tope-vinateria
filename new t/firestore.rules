@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Los clientes SOLO pueden registrar/actualizar su token; nadie puede leer la lista desde la web.
+    match /fcmTokens/{token} {
+      allow create, update: if request.resource.data.keys().hasOnly(['active','ua','updatedAt'])
+                            && request.resource.data.active is bool;
+      allow read, delete: if false;
+    }
+  }
+}
