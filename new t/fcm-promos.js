@@ -12,7 +12,7 @@ const firebaseConfig = {
   appId: "1:1011217846005:web:41c341bfd572214743ffbc",
   measurementId: "G-E77L0RD83G"
 };
-const VAPID_KEY = "BJqbPVZ2N-uyslV5YDqRkOGVOZ0PQU41pqZhfFsogQ_OnQadISfDNtj0BJ2BKKNaaxSWFg0QtgrDbXHoTKtNfIQ";
+const VAPID_KEY = "BJqbPVZ2N-uYslV5YDqRkOGVOZQPQu41pqZhfFsogQ_0nQaqISfDNtjuBj2BkKNaaxSWFgoQtgrDbXHcTKtNfiQ";
 const LS_KEY = "tope_push_token";
 
 const app = initializeApp(firebaseConfig);
