@@ -8,8 +8,8 @@ const firebaseConfig = {
   authDomain: "tope-vinateria.firebaseapp.com",
   projectId: "tope-vinateria",
   storageBucket: "tope-vinateria.firebasestorage.app",
-  messagingSenderId: "1011217846065",
-  appId: "1:1011217846065:web:41c341bfd572214743ffbc",
+  messagingSenderId: "1011217846005",
+  appId: "1:1011217846005:web:41c341bfd572214743ffbc",
   measurementId: "G-E77L0RD83G"
 };
 const VAPID_KEY = "BJqbPVZ2N-uyslV5YDqRkOGVOZ0PQU41pqZhfFsogQ_OnQadISfDNtj0BJ2BKKNaaxSWFg0QtgrDbXHoTKtNfIQ";
